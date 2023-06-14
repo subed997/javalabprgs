@@ -1,5 +1,5 @@
 package feb23.feb2;
-class Calc
+class Calc2
 {
  	public int add(int nums[])
 	{
@@ -16,7 +16,7 @@ class Calc
 public class Demo4{
 	public static void main(String[] args){
 
-	Calc obj= new Calc();
+	Calc2 obj= new Calc2();
 	int nums[]={5,2,3,7,8,2};
 	int result=obj.add(nums);
 	System.out.println(result);
