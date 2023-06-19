@@ -5,7 +5,7 @@ public class consvowspe
 
     public static void main(String[] args)
     {
-        String s1="This is my Email ubedulla997@gmail.com";
+        String s1="This is my Email ubedullaa997@gmail.com";
         int vowels=0,consonant=0,digit=0,specialChar=0;
         for(int i=0;i<s1.length();i++)
         {
