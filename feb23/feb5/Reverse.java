@@ -4,14 +4,17 @@ public class Reverse
 {
     public static void main(String[] args)
     {
-//        String s1 = "pwjava";
-//        String s2 = "";
-//        for(int i=s1.length()-1;i>=0;i--)
-//        {
-//            s2 = s2 +s1.charAt(i);
-//        }
-//        System.out.println("Before reversing : "+s1);
+//   String s1 = "pwjava";
+//       String s2 = "";
+//       for(int i=s1.length()-1;i>=0;i--)
+//      {
+//            s2 = s2 +s1.indexOf(i);
+//    }
+//       System.out.println("Before reversing : "+s1);
 //        System.out.println("After reversing : "+s2);
+//        output:Before reversing : pwjava
+//                After reversing : avajwp
+
 //        String s1 = "pwskill java";
 //        String s2 ="";
 //        String sarr[] = s1.split(" ");
@@ -21,6 +24,9 @@ public class Reverse
 //        }
 //        System.out.println("Before reversing : "+s1);
 //        System.out.println("After reversing : "+s2);
+//        output: Before reversing : pwskill java
+//                After reversing : java pwskill
+
 //        String s1= "pwskill java";
 //        String s2= "";
 //        for(int i=s1.length()-1;i>=0;i--)
@@ -29,7 +35,10 @@ public class Reverse
 //        }
 //        System.out.println("Before reversing : "+s1);
 //        System.out.println("After reversing : "+s2);
-        String s1= "pwskill java";
+//        output: Before reversing : pwskill java
+//                After reversing : avaj llikswp
+
+        String s1= "pwskill java ";
         String s2= "";
         String sarr[]=s1.split(" ");
 
@@ -40,7 +49,7 @@ public class Reverse
                 s2= s2+elem.charAt(i);
             }
             s2=s2+" ";
-        }
+       }
         System.out.println("Before reversing : "+s1);
         System.out.println("After reversing : "+s2);
 

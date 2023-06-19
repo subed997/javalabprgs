@@ -8,7 +8,7 @@ public class printdups
         for (int i = 0; i < str.length(); i++)
         {
             char ch = str.charAt(i);
-            int idx = str.indexOf(ch, i + 1);
+            int idx = str.indexOf(ch,i+1);
             if (idx != -1)
             {
                 System.out.print(ch + " ");
