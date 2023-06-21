@@ -5,7 +5,7 @@ public class checkpan
     public static void main(String[] args)
     {
         boolean flag = true;
-        String s1 = "THE QUICK BROW FOX JUMPS OVER LAZY DOG".replace(" ","");
+        String s1 = "THE QUICK BROWN FOX JUMPS OVER LAZY DOG".replace(" ","");
         for(char ch='A';ch<='Z';ch++)
         {
             if(!s1.contains(String.valueOf(ch)))
