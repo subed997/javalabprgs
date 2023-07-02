@@ -5,7 +5,7 @@ class Demo1
      int a,b;
      public Demo1()
      {
-         System.out.println("Parent class constructor");
+         System.out.println("Default Parent class constructor");
      }
      public Demo1(int x,int y)
      {
@@ -25,7 +25,7 @@ class Demo2 extends Demo1
     }
     public Demo2(int x ,int y)
     {
-        //super
+        //super();
         System.out.println("Child parameterized class constructor");
         m=x;
         n=y;
@@ -37,6 +37,7 @@ public class ConstructorExe
     public static void main(String[] args)
     {
         Demo2 d= new Demo2();
+
 //        Demo2 d2=new Demo2(10,20);
 
     }
