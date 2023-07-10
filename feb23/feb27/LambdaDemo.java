@@ -11,3 +11,4 @@ public class LambdaDemo
         obj.drive();
     }
 }
+
