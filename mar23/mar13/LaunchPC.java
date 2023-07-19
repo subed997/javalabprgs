@@ -9,12 +9,12 @@ class Queue
         {
             if(valueInX)
             {
-                wait(2000);
+                wait();
             }
             else
             {
                 x=j;
-                System.out.println("I Produce data into x"+x);
+                System.out.println("I Produced value x "+x);
                 valueInX=true;
                 notify();
 
@@ -31,11 +31,11 @@ class Queue
         {
             if(!valueInX)
             {
-                wait(2000);
+                wait();
             }
             else
             {
-                System.out.println("I Consume data at x"+x);
+                System.out.println("I Consumed value x"+x);
                 valueInX=false;
                 notify();
             }
