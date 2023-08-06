@@ -88,5 +88,4 @@ public class LaunchSorting
         Collections.sort(list);
         System.out.println(list);
     }
-
 }
