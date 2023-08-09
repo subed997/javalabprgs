@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jan23/jan23.iml" filepath="$PROJECT_DIR$/jan23/jan23.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javalabprgs.iml" filepath="$PROJECT_DIR$/javalabprgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSAprograms/DSAprograms.iml" filepath="$PROJECT_DIR$/DSAprograms/DSAprograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/JAVA.iml" filepath="$PROJECT_DIR$/JAVA/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA Programming.iml" filepath="$PROJECT_DIR$/JAVA Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/jan23/jan2023.iml" filepath="$PROJECT_DIR$/JAVA/jan23/jan2023.iml" />
     </modules>
   </component>
 </project>
