@@ -1,5 +1,6 @@
 package apr2023.apr17.assignment;
-
+//Time Complexity = O(m*n)
+// SPace Complexity =O(1)
 import java.util.Scanner;
 
 public class ass_2Dcode5
